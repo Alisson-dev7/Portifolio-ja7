@@ -1,0 +1,13 @@
+.box_contato{
+    color: var(--color-primary);
+    text-align: center;
+    width: 7rem;
+    border: 2px solid var(--color-border);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.box_contato:hover {
+    box-shadow: 0 0 20px 0 var(--color-border);
+
+}

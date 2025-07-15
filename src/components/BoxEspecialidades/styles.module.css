@@ -1,0 +1,33 @@
+.boxEspecialidades{
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+
+
+.boxEspecialidades_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.boxEspecialidades_title h2{
+    font-size: 1.2rem;
+}
+.boxEspecialidades_progressBar_span{
+    height: 20px;
+    background-color: var(--color-span);
+    display: block;
+    border-radius: 10px;
+}
+.boxEspecialidades_progressBar_span:hover{
+    box-shadow: 0 0 20px 0 var(--color-span);
+}
+.boxEspecialidades_progressBar{
+    width: 100%;
+    background-color: #747070;
+    border-radius: 10px;
+}
+@media (max-width: 1024px){
+    .boxEspecialidades{
+        width: 21rem;
+    }
+}

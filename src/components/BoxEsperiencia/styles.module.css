@@ -1,0 +1,27 @@
+.boxEsperiencia{
+    width: 30rem;
+    text-align: justify;
+    background-color: #2b2a2a;
+    padding: 1rem;
+    border-radius: 1rem 0 1rem 1rem;
+    color: var(--color-primary);
+}
+.date{
+    margin-bottom: 0.3rem;
+    margin-top: 0.1rem;
+}
+.icon_title{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.icon{
+    padding-bottom: 0.2rem;
+}
+
+@media (max-width: 1024px){
+    .boxEsperiencia{
+        width: 21rem;
+        border-radius: 0 1rem 1rem 1rem;
+    }
+}
