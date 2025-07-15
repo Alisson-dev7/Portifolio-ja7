@@ -7,7 +7,7 @@ export function Footer(){
         <footer className="Container">
             <div className={styles.footer_content}>
                 <div className={styles.footer_content_logo}>
-                    <img src="./src/assets/logo-preto.svg" alt="logo" />
+                    <img src="./public/logo-preto.svg" alt="logo" />
                     <p>Desenvolvedor Full Stack</p>
                 </div>
                 <div className={styles.footer_content_link_contato}>

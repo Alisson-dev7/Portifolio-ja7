@@ -8,8 +8,8 @@ export function Projetos() {
                 <h1>Projetos</h1>
             </div>
             <div className={styles.projetos_content}>
-                <BoxProjetos img="./src/assets/img-projetos/vangogh.png" title="Vangogh" description="Site dedicado ao pintor Vicent Van Gogh, nesse site mostra as suas famosas obras, frases, poemas com referência a ele e as suas pinturas, e um cátalago de produtos para quem é fã." link="https://vangogh7.netlify.app" />
-                <BoxProjetos img="./src/assets/img-projetos/recantopeixe.png" title="Vangogh" description="Site dedicado ao pintor Vicent Van Gogh, nesse site mostra as suas famosas obras, frases, poemas com referência a ele e as suas pinturas, e um cátalago de produtos para quem é fã." link="https://recanto-do-peixe.netlify.app"/>
+                <BoxProjetos img="./public/img-projetos/vangogh.png" title="Vangogh" description="Site dedicado ao pintor Vicent Van Gogh, nesse site mostra as suas famosas obras, frases, poemas com referência a ele e as suas pinturas, e um cátalago de produtos para quem é fã." link="https://vangogh7.netlify.app" />
+                <BoxProjetos img="./public/img-projetos/recantopeixe.png" title="Vangogh" description="Site dedicado ao pintor Vicent Van Gogh, nesse site mostra as suas famosas obras, frases, poemas com referência a ele e as suas pinturas, e um cátalago de produtos para quem é fã." link="https://recanto-do-peixe.netlify.app"/>
             </div>
         </section>
     )
