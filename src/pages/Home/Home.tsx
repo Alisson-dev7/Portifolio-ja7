@@ -12,10 +12,10 @@ export function Home() {
                         <p>Sou formado em Técnico em Informática para Internet pelo Instituto Federal de Alagoas (IFAL) e atualmente estou cursando Ciência da Computação pela UNIGRANDE.</p>
                     </div>
                     <div className={styles.home_content_image}>
-                        <img src="./src/assets/foto_perfil.svg" alt="Logo" />
+                        <img src={imageLinks.foto_perfil} alt="Logo" />
                     </div>
                 </div>
-                <img src="./src/assets/divisor-preto.svg" alt="divisor" className={styles.home_divisor} />
+                <img src={imageLinks.divisor_preto} alt="divisor" className={styles.home_divisor} />
             </div>   
         </section>
     )
