@@ -8,7 +8,7 @@ import { Projetos } from './pages/Projetos/Projetos';
 import './styles/global.css';
 import './styles/theme.css';
 
-export default function App() {
+export function App() {
   return (
     <>
     <div>
