@@ -46,7 +46,7 @@ export function Experiencia() {
                 />
                 </span>
             </div>
-            <img src="/public/vector 1.svg" alt="divisor" className={styles.experiencia_divisor} />
+            <img src="/portifolio_/src/assets/vector 1.svg" alt="divisor" className={styles.experiencia_divisor} />
         </section>
     )
 }

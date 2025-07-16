@@ -19,7 +19,7 @@ export function Contato(){
             <div className={styles.contato_forms}>
                 <Forms />
             </div>
-            <img src="./public/divisor-branco.svg" alt="divisor" className={styles.divisor} />
+            <img src="/portifolio_/src/assets/divisor-branco.svg" alt="divisor" className={styles.divisor} />
         </section>
     )
 }
