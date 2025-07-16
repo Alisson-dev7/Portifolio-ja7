@@ -2,7 +2,7 @@ import { BoxContato } from '../../components/BoxContato';
 import { FaWhatsapp, FaInstagram, FaLinkedin,FaGithub} from "react-icons/fa";
 import styles from './styles.module.css';
 import { Forms } from '../../components/Forms/Forms';
-import { imageLinks } from '../../assets/imageLinks';
+import divisor_branco from '../../assets/divisor-branco.svg';
 
 export function Contato(){
     return(
@@ -20,7 +20,7 @@ export function Contato(){
             <div className={styles.contato_forms}>
                 <Forms />
             </div>
-            <img src={imageLinks.divisor_branco} alt="divisor" className={styles.divisor} />
+            <img src={divisor_branco} alt="divisor" className={styles.divisor} />
         </section>
     )
 }

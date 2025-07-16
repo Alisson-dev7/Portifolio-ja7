@@ -1,4 +1,6 @@
 import { imageLinks } from '../../assets/imageLinks';
+import foto_perfil from '../../assets/foto_perfil.svg';
+import divisor_preto from '../../assets/divisor-preto.svg';
 import styles from './styles.module.css';
 
 export function Home() {
@@ -12,10 +14,10 @@ export function Home() {
                         <p>Sou formado em Técnico em Informática para Internet pelo Instituto Federal de Alagoas (IFAL) e atualmente estou cursando Ciência da Computação pela UNIGRANDE.</p>
                     </div>
                     <div className={styles.home_content_image}>
-                        <img src={imageLinks.foto_perfil} alt="Logo" />
+                        <img src={foto_perfil} alt="Logo" />
                     </div>
                 </div>
-                <img src={imageLinks.divisor_preto} alt="divisor" className={styles.home_divisor} />
+                <img src={divisor_preto} alt="divisor" className={styles.home_divisor} />
             </div>   
         </section>
     )

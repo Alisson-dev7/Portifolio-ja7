@@ -1,14 +1,14 @@
 import { MdMarkEmailRead, MdOutlineLocalPhone } from "react-icons/md";
 import { SiGooglemaps } from "react-icons/si";
 import styles from './styles.module.css';
-import { imageLinks } from "../../assets/imageLinks";
+import logo_preto from '../../assets/logo-preto.svg';
 
 export function Footer(){
     return(
         <footer className="Container">
             <div className={styles.footer_content}>
                 <div className={styles.footer_content_logo}>
-                    <img src={imageLinks.logo_preto} alt="logo" />
+                    <img src={logo_preto} alt="logo" />
                     <p>Desenvolvedor Full Stack</p>
                 </div>
                 <div className={styles.footer_content_link_contato}>

@@ -1,7 +1,7 @@
 import { BoxEsperiencia } from '../../components/BoxEsperiencia';
 import { GraduationCap, Earth, ContactRound } from 'lucide-react';
 import styles from './styles.module.css';
-import { imageLinks } from '../../assets/imageLinks';
+import vector_1 from '../../assets/vector 1.svg';
 
 export function Experiencia() {
     return (
@@ -47,7 +47,7 @@ export function Experiencia() {
                 />
                 </span>
             </div>
-            <img src={imageLinks.vector_1} alt="divisor" className={styles.experiencia_divisor} />
+            <img src={vector_1} alt="divisor" className={styles.experiencia_divisor} />
         </section>
     )
 }

@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import styles from './styles.module.css';
 import { AlignRight, X } from 'lucide-react';
-import { imageLinks } from '../../assets/imageLinks';
+import logo from "../../assets/Group 1 (12).png";
 
 export function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <nav className='Container'>
             <div className={styles.navbar__container}>
-                <a className={styles.navbar__logo}><img src={imageLinks.logo} alt="Logo" /></a>
+                <a className={styles.navbar__logo}><img src={logo} alt="Logo" /></a>
                 <ul className={styles.navbar__list}> 
                     <li><a href="#home">Home</a></li>
                     <li><a href="#especialidades">Especialidades</a></li>
