@@ -32,7 +32,7 @@ export function Experiencia() {
                 <BoxEsperiencia
                     className={styles.left_container}
                     icon={ContactRound}
-                    title="Projeto Desplugando" 
+                    title="Projeto Desplugando"
                     date="2024" 
                     description="Foi um projeto de extensão desenvolvido em uma escola particular de Viçosa, onde eu e alguns colegas se tornamos professores voluntários para lecionar aulas de informática para os alunos." 
                 />
