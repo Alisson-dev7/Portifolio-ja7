@@ -1,13 +1,12 @@
 import { BoxEsperiencia } from '../../components/BoxEsperiencia';
 import { GraduationCap, Earth, ContactRound } from 'lucide-react';
-import divisor_preto2 from '../../assets/Vector 1.svg';
 import styles from './styles.module.css';
 
 export function Experiencia() {
     return (
         <section id="experiencia" className={`${styles.experiencia} Container`}>
             <div className={styles.experiencia_content}>
-                    <h2>Experiências</h2>
+                <h2>Experiências</h2>
             </div>
             <div className={styles.experiencia__container}>
                 <span className={styles.right_border}>
@@ -47,7 +46,6 @@ export function Experiencia() {
                 />
                 </span>
             </div>
-            <img src={divisor_preto2} alt="divisor" className={styles.experiencia_divisor} />
         </section>
     )
 }

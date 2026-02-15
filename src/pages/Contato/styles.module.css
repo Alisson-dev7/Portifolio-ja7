@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    height: 50vh;
 }
 .contato_content{
     text-align: center;
@@ -18,15 +18,6 @@
     display: flex;
     gap: 2rem;
     margin-bottom: 3rem;
-}
-.contato_forms{
-    margin-bottom: 4rem;
-}
-.divisor{
-    width: 100%;
-    left: 0;
-    z-index: 6;
-    
 }
 
 @media (max-width: 1024px) {

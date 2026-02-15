@@ -1,30 +1,25 @@
 .boxEspecialidades{
-    width: 30rem;
-    margin-bottom: 1rem;
-}
-
-
-.boxEspecialidades_title{
+    height: 8rem;
+    width: 8rem;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: #16CD13;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #343534;
+    border-radius: 50px 0px 20px 0px;
 }
-.boxEspecialidades_title h2{
-    font-size: 1.2rem;
+.title{
+    margin-bottom: 5px;
+    margin-top: 7px;
+    font-weight:700;
+    font-size: 0.9rem;
 }
-.boxEspecialidades_progressBar_span{
-    height: 20px;
-    background-color: var(--color-span);
-    display: block;
-    border-radius: 10px;
-}
-.boxEspecialidades_progressBar_span:hover{
-    box-shadow: 0 0 20px 0 var(--color-span);
-}
-.boxEspecialidades_progressBar{
-    width: 100%;
-    background-color: #747070;
-    border-radius: 10px;
+.icon{
+    font-size: 65px;
+    color: #16CD13;
 }
 @media (max-width: 1024px){
     .boxEspecialidades{

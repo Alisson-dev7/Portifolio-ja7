@@ -7,10 +7,12 @@
     list-style: none;
 }
 .Container{
-    padding-right: 15rem;
-    padding-left: 15rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
 }
-
+body{
+  background-color: #111111;  
+}
 @media (max-width: 1024px) {
     .Container{
         padding-right: 1rem;

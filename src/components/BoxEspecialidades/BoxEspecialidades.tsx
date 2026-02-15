@@ -2,22 +2,15 @@ import styles from './styles.module.css';
 
 type BoxEspecialidadesProps = {
     title: string;
-    porcentagem: number; 
+    icon: React.ReactNode
 }
 
-export function BoxEspecialidades({title, porcentagem}: BoxEspecialidadesProps) {
+export function BoxEspecialidades({title, icon}: BoxEspecialidadesProps) {
     return (
         <>
         <div className={styles.boxEspecialidades}>
-        <div className={styles.boxEspecialidades_title}>
-            <h2>{title}</h2>
-            <h2>{porcentagem}%</h2>
-        </div>
-        <div>
-            <div className={styles.boxEspecialidades_progressBar}>
-                <span style={{width: `${porcentagem}%`}} className={styles.boxEspecialidades_progressBar_span}></span>
-            </div>
-        </div>
+            <p className={styles.title}>{title}</p>
+            <p className={styles.icon}>{icon}</p>
         </div>
         </>
     )
