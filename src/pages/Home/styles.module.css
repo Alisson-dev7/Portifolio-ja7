@@ -5,7 +5,7 @@
     align-items: center;
 }
 .home_content_text{
-    width: 30rem;
+    width: 30%;
     text-align: justify;
     padding: 1rem;
     font-weight: 500;
@@ -42,16 +42,18 @@
 }
 @media (max-width: 1024px){
     .home__content{
-        width: calc(100%);
-    }
-    .home_content_container{
+        width: 100%;
         flex-direction: column-reverse;
-    }
-    .home_content_text{
-        width: 23rem;
+        height: auto;
+        margin-top: 70px;
     }
     .home_divisor{
         display: none;
     }
-    
+    .home_content_image img{
+        width: 400px;
+    }
+    .home_content_text{
+        width: 100%;
+    }
 }

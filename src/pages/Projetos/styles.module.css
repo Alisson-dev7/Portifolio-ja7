@@ -23,5 +23,7 @@
     .projetos_content{
         flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
+        padding: 2rem 0;
+        width: 100%;
     }
 }

@@ -21,6 +21,10 @@
 }
 
 @media (max-width: 1024px) {
+    .contato_container{
+        height: auto;
+        padding: 2rem 0;
+    }
     .contato_box{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

@@ -1,26 +1,12 @@
+.experiencia{
+    min-height: 70vh;
+}
 .experiencia__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
     margin-top: 4rem;
     position: relative;
-}
-
-.right_container{
-    margin-left: 19%;
-    border-radius: 0 1rem 1rem 1rem;
-}
-.left_container{
-    margin-left: 17%;
-}
-.right_border{
-    padding-top: 1rem;
-    border-right: 3px solid rgb(0, 255, 98);
-    display: block;
-    width: 50.2%;
-}
-.left_border{
-    padding-top: 1rem;
-    border-left: 3px solid rgb(0, 255, 98);
-    display: block;
-    margin-left: 50%;
 }
 
 .experiencia_content{
@@ -36,31 +22,6 @@
     }
     .experiencia__container{
         margin-bottom: 5rem;
-    }
-    .experiencia_content{
-        position: absolute;
-        width: 22rem;
-    }
-    .right_container{
-        margin-left: 0;
-    }
-    .left_container{
-        margin-left: 0;
-    }
-    .right_border{
-        border-left: 3px solid rgb(0, 255, 98);
-        border-right: none;
-        width: 0%;
-        padding-left: 1rem;
-        padding-top: 2rem;
-    }
-    .left_border{
-        padding-left: 1rem;
-        margin-left: 0%;
-        border-left: 3px solid rgb(0, 255, 98);
-        padding-top: 2rem;
-    }
-    .experiencia_divisor{
-        width: 15rem;
+        grid-template-columns: 1fr;
     }
 }

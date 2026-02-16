@@ -1,9 +1,10 @@
 import foto_perfil from '../../assets/foto-perfil.png';
 import styles from './styles.module.css';
+const link_CV = import.meta.env.VITE_CV_LINK
 
 export function Home() {
     return (
-        <section className='Container'>
+        <section id="home" className='Container'>
             <div className={`${styles.home__content}`}>
                 <div className={styles.home_content_text}>
                     <div>
@@ -12,7 +13,7 @@ export function Home() {
                         <p>Sou formado em Técnico em Informática para Internet pelo Instituto Federal de Alagoas (IFAL) e atualmente estou cursando Ciência da Computação pela UNIGRANDE.</p>
                     </div>   
                     <div className={styles.div_btn}>
-                        <button>Download CV</button>
+                        <button onClick={()=> window.open(link_CV, "_blank")}>Download CV</button>
                         <button>Entrar em contato</button>
                     </div>
                 </div>

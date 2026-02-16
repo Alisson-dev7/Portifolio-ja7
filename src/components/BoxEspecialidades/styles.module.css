@@ -21,8 +21,3 @@
     font-size: 65px;
     color: #16CD13;
 }
-@media (max-width: 1024px){
-    .boxEspecialidades{
-        width: 21rem;
-    }
-}

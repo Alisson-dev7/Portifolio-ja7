@@ -13,10 +13,10 @@
 body{
   background-color: #111111;  
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .Container{
-        padding-right: 1rem;
-        padding-left: 1rem;
+        width: 100%;
+        padding: 0 1rem;
         overflow: hidden;
     }
 }

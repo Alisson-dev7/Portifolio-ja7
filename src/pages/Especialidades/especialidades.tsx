@@ -1,7 +1,7 @@
 import { BoxEspecialidades } from '../../components/BoxEspecialidades/BoxEspecialidades';
 import styles from './styles.module.css';
-import { FaCss3Alt, FaJsSquare, FaHtml5, FaJava, FaPython, FaReact, FaFigma, FaNodeJs } from "react-icons/fa";
-import { BiLogoTypescript } from "react-icons/bi";
+import { FaCss3Alt, FaJsSquare, FaHtml5, FaJava, FaPython, FaReact, FaFigma, FaNodeJs, FaGitAlt } from "react-icons/fa";
+import { BiLogoMongodb, BiLogoTypescript } from "react-icons/bi";
 
 export function Especialidades() {
     return (
@@ -19,6 +19,8 @@ export function Especialidades() {
                             <BoxEspecialidades title="Figma" icon={<FaFigma/>}/>
                             <BoxEspecialidades title="NodeJS" icon={<FaNodeJs/>}/>
                             <BoxEspecialidades title="TypeScrip" icon={<BiLogoTypescript/>}/>
+                            <BoxEspecialidades title='MongoDB' icon={<BiLogoMongodb/>}/>
+                            <BoxEspecialidades title='Git' icon={<FaGitAlt/>}/>
                         </div>
                     </div>
                 </div>
