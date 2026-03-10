@@ -5,14 +5,21 @@ interface BoxProjetosProps {
     title: string;
     description: string;
     link: string;
+    icon: React.ReactNode;
 }
 
-export function BoxProjetos({img, title, description, link}: BoxProjetosProps) {
+export function BoxProjetos({img, link, title, icon, description}: BoxProjetosProps) {
     return (
-        <div className={styles.box_projetos} onClick={() => window.location.href = link}>
+        <div className={styles.box_projetos}>
             <img src={img}/>
-            <h1>{title}</h1>
-            <p>{description}</p>
+            <div className={styles.div_title}>
+                <p>{title}</p>
+                <div>{icon}</div>
+            </div>
+            <div className={styles.div_description}>
+                <p>{description}</p>
+                <button onClick={() => window.location.href = link}>Acessar Site</button>
+            </div>
         </div>
     )
 }

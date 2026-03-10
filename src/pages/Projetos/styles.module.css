@@ -1,8 +1,10 @@
 .projetos_container{
-    background-color: black;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding-bottom: 5rem;
+    min-height: 100vh;
 }
 .projetos_title{
     color: var(--color-primary);
@@ -12,13 +14,16 @@
     font-size: 1.5rem;
 }
 .projetos_content{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 }
 
 @media (max-width: 1024px){
     .projetos_content{
         flex-direction: column;
-        left: 0;
-        padding-right: 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem 0;
+        width: 100%;
     }
 }
